@@ -3,7 +3,7 @@
 __Floagg Entreprise EI__
 SIRET : 947990297 00014
 Téléphone : [06 76 94 82 34](tel:0676948234)
-Adresse electronique : [hello@floagg.org](hello@floagg.org)
+Adresse electronique : [hello@floagg.org](mailto:hello@floagg.org)
 site internet : [www.floagg.org](www.floagg.org)
 
 ## Hebergement :
