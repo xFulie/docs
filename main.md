@@ -1,3 +1,5 @@
+---home-page-floagg---
+
 # Présentation
 Floagg Entreprise EI est une entreprise individuelle créer en Janvier 2023 par Madame Julie CRISPIN, eyant pour but de réglementer les site internet conçus par Julie Crispin, et produire des services pour les particulier et les entreprise.
 A la Floagg Entreprise EI, nous avons une visions de l'informatique ouvert à tous, qu'elle que soit la façons dons vous utiliser un appareil informatique (Téléphone, Tablette, Ordinateur, TV, ...), nous souhaitons concevoir un monde informatique accesible ou/et compréhensible par tous.
