@@ -4,8 +4,3 @@ A la Floagg Entreprise EI, nous avons une visions de l'informatique ouvert à to
 ## "La Floagg" entreprise EI
 Floagg n'as auccune définition, auccune origine, et n'impartient à auccune langue. Floagg représente simplement le nom d'une futur Société mère, mettant en relation, aidant et créant les futur entreprise et personnes de demain. Tout les acteurs peuvent donner la définition la plus approprier à la vision que as le mot Floagg pour eux.
 A la Floagg Entreprise EI nous aimons la défintion "Tout ce qui peut-etre utile à une personne ou à un business." car nous aidons les particulier et entreprise à promouvoir leur services, leur produit, leur annonces.
-
-% Liste One
-% Liste Two
-% Liste Trie
-% Liste For

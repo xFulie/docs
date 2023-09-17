@@ -1,7 +1,7 @@
 # Règlement de communauté
 Floagg Entreprise est responsable de plusieurs plateforme, don [Floagg pour les freelance](https://www.floagg.org) qui permet de mettre en relation des freelance avec des particulier ou bien des entreprise.
 
-Il en vien important de règlementer les publications publier et les utilisateurs sur les plateforme. C'est pour ça que nous avons pris le temps à coter la rédaction de nos condition d'utilisation, de vous informer sur les bonne pratique et les sanction qui peuvent arriver.
+Il en vient important de règlementer les publications publier et les utilisateurs sur les plateforme. C'est pour ça que nous avons pris le temps à coter la rédaction de nos condition d'utilisation, de vous informer sur les bonne pratique et les sanction qui peuvent arriver.
 
 # Respecter d'autruis
 Les plateformes conçus par la Floagg Entreprise sont des lieu de découverte et d'échange, vous devez rester courtois, agréable, et à l'écoute des autres.
