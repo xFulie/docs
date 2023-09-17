@@ -3,5 +3,5 @@ Markdown est un langage de balisage léger créé en 2004 par John Gruber, avec 
 
 Un document rédigé par Markdown peut être converti en HTML, en PDF ou en d'autres formats. Bien que la syntaxe Markdown ait été influencée par plusieurs filtres de conversion de texte existants vers HTML — dont Setext, atx, Textile, reStructuredText, Grutatext et EtText —, la source d’inspiration principale du Markdown est le format du courrier électronique en mode texte
 
-# Markdown dans "floagg.info"
+## Markdown dans "floagg.info"
 Floagg.info utilise du Mardown, pour afficher le contenue des "article/documentation" via une function Javascript. vous pouvez trouver le GitHub du site à cette addres [GitHub Floagg France](https://github.com/FloaggFrance/floagg-info)
