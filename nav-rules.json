@@ -1,4 +1,9 @@
 [{
+	"name": "« retoure",
+	"link": "main",
+	"slug": "main",
+	"git_nav": "main"
+},{
 	"name": "Information principal",
 	"link": "community/rule/main",
 	"slug": "community/rule/main",
