@@ -3,10 +3,22 @@
 	"link": "main",
 	"slug": "main"
 },{
+	"name": "Pourquoi Floagg Entreprise ?",
+	"link": "markdown/main",
+	"slug": "markdown/main"
+},{
 	"name": "Règlement de communauté",
 	"sub_menu": [{
 		"name": "Le principal",
 		"link": "community/rule/main",
 		"slug": "community/rule/main"
+	},{
+		"name": "La persecution",
+		"link": "community/rule/persecution",
+		"slug": "community/rule/persecution"
 	}]
+},{
+	"name": "Mention Légale",
+	"link": "legal-notice",
+	"slug": "legal-notice"
 }]
