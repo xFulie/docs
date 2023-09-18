@@ -1,0 +1,12 @@
+[{
+	"name": "Information principal",
+	"link": "main",
+	"slug": "main"
+},{
+	"name": "Règlement de communauté"
+	"sub_menu": [{
+		"name": "Le principal",
+		"link": "community/rule/main",
+		"slug": "community/rule/main"
+	}]
+}]
