@@ -10,4 +10,4 @@ Le repos Github est disponible en libre téléchagement et est publique, mais vo
 Vous trouverait des information sur le fonctionnement de la Floagg Entreprise, les projets à venir, les prochainne mise à jour, le nombres de client, des informations sur les prestation réaliser au près de particulier et d'entreprise.
 
 ## Qui mes à jour les information floagg.info ?
-Tout le contenue que vous voyer sur floagg.info as etait rédiger par [Julie .C](https://www.floagg.org/u/xx_julie_xx)
+Tout le contenue que vous voyer sur floagg.info as etait rédiger par [Julie .C](https://www.floagg.org/u/xx\_julie\_xx)
