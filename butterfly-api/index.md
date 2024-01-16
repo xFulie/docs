@@ -1,6 +1,5 @@
 <h1 class="header-markdown">Butterfly Player API <span id="versions-player">Loading API</span></h1>
 
-# Présentation.
 **Butterfly Player API** est une alternative JavaScript sans dépendance au framework Vidéo.js. Elle vous permet d'intégrer facilement un lecteur vidéo à votre site internet.
 
 **La Butterfly Player API** est un thème démontrant les capacités du gestionnaire d'événements **Blueberry V0.3**. Le code source fourni dans cette page Github vous permettra de créer votre propre lecteur vidéo, sur mesure selon vos besoins. Bien sûr, les fonctionnalités disponibles dans le thème présent dans ce git utilisent des fonctionnalités natives du gestionnaire.
