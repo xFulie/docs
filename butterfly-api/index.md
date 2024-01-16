@@ -29,7 +29,7 @@ Une fois que vous avez ajouter les fichier Javascript, vous pouvez ajouter une b
 Intégrez la Butterfly Player API à votre site internet.
 
 ```html
-<script type="text/javascript" src="//floagg.info/package/beta-player@v0.7-fluttershy"></script>
+<script type="text/javascript" src="//floagg.info/package/beta-player@release-fluttershy"></script>
 <script type="text/javascript">
     Player.set('#player', {
         height: 720,
@@ -92,17 +92,11 @@ Pour afficher un menu de qualité vidéo, il faudra utiliser le Regex `$({qualit
 
 ```JS
 Player.set('#player', {
-
     height: 720,
-
     width: 1280,
-
     src: 'https://www.siteweb.com/monfichier_$({quality}).mp4',
-
     thumbnail: 'https://www.siteweb.com/monfichier.png',
-
     quality: ['720p', '480p', '360p']
-
 })
 ```
 
@@ -183,27 +177,3 @@ La propriété `Audio`...
 
 ## DefaultQuality
 La propriété `DefaultQuality`...
-
-# Méthodes.
-
-# Évènements.
-
-## Introduction aux évènements
-Le Kernel d'événement utilisé par la Butterfly Player API (BPA) fournit des événements personnalisés s'exécutant lorsque le kernel Blueberry réalise une action, que ce soit sur la vidéo ou bien dans les contrôles.
-
-> L'exemple fourni ci-dessous est tiré du code Butterfly Player API, se situant dans la fonction `Player.set(String, Object)` de la classe Player. Celle-ci met à jour la source de la vidéo avec le bon Regex.
-
-```JS
-Kernel.onChangeAudio = () => {
-    let reg = this.videoSrc
-        .replace(/\$\(\{audio\}\)/g, this.videoSrc)
-        .replace(/\$\(\{quality\}\)/g, Kernel.vCurrentQuality)
-        .replace(/\$\(\{extension\}\)/g, Kernel.vCurrentExtension)
-                
-    Kernel.vSrc = reg
-}
-```
-
-|test|teste|aaaa
-|----|-----|----
-|test|teste|aaaa
