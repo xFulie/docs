@@ -19,7 +19,7 @@ Pour créer le lecteur Butterfly, vous devez d'abord appeler le fichier JavaScri
 
 **Versions Beta**
 ```html
-<script type="text/javascript" src="//floagg.info/package/beta-player@v0.7-fluttershy"></script>
+<script type="text/javascript" src="//floagg.info/package/beta-player@release-fluttershy"></script>
 ```
 
 Une fois que vous avez ajouter les fichier Javascript, vous pouvez ajouter une balise ayant par exemple d'ID égal à player et ajouter cette ligne de code.
