@@ -1,8 +1,12 @@
 <h1 class="header-markdown">Butterfly Player API <span id="versions-player">Loading API</span></h1>
 
-**Butterfly Player API** est une alternative JavaScript sans dépendance au framework Vidéo.js. Elle vous permet d'intégrer facilement un lecteur vidéo à votre site internet.
+**Butterfly Player API** est une alternative JavaScript sans dépendance et peut servir d'alternative au framework Vidéo.js. Elle vous permet d'intégrer facilement un lecteur vidéo à votre site internet.
 
-**La Butterfly Player API** est un thème démontrant les capacités du gestionnaire d'événements **Blueberry V0.3**. Le code source fourni dans cette page Github vous permettra de créer votre propre lecteur vidéo, sur mesure selon vos besoins. Bien sûr, les fonctionnalités disponibles dans le thème présent dans ce git utilisent des fonctionnalités natives du gestionnaire.
+La **Butterfly Player API** est un thème démontrant les capacités du gestionnaire d'événements **Blueberry V0.3**. Le code source fourni dans la page [Github](https://github.com/FloaggFrance/Butterfly-Player-API) vous permettra de créer votre propre lecteur vidéo, sur mesure selon vos besoins. Bien sûr, les fonctionnalités disponibles dans le thème présent dans ce git ou bien cette page utilisent des fonctionnalités natives du gestionnaire.
+
+## [Customisation Docs](./butterfly-api/customization)
+
+> Ce si est une versions de développement
 
 ## Exemple interactif
 
@@ -58,122 +62,22 @@ Si vous souhaitez intégrer plusieurs lecteurs vidéo à votre site internet, il
 
 > Si vous rencontré un problèmes CSS, ajouter simplement cette ligne `Player.link_css_player = "https://floagg.info/package/stylesheet@v0.3-fluttershy"`
 
-# Tutoriels.
-## Configuration avancées
-`SettingsObject` attend un Object, celle si peut contenir une liste de paramètre (voir le tableau si-dessous), qui permettra à la Butterfly Player API définir des paramétres pour l'interface ou bien pour noyeaux d'évenement.
+# Configuration avancées.
+[SettingsObject](./butterfly-api/SettingsObject) attend un Object, celle si peut contenir une liste de paramètre (voir [ICI](./butterfly-api/SettingsObject)), qui permettra à la Butterfly Player API définir des paramétres pour l'interface ou bien pour noyeaux d'évenement.
 
 ```JS
 Player.set(CssSelectorElement, SettingsObject)
 ```
 
-## Ajouter des sous-titres
-La Butterfly Player API est capable d'afficher des sous-titres au format VTT seulement pour le moment.
+## Propriété principal à savoir
 
-```JS
-Player.set('#player', {
-    height: 720,
-    width: 1280,
-    src: 'https://www.siteweb.com/monfichier.mp4',
-    thumbnail: 'https://www.siteweb.com/monfichier.png',
-    subtitle: [
-        {
-            name: "Français",
-            lang: "fr",
-            url: "./mes-sous-titre/frencais.vtt"
-        }
-    ]
-});
-```
+[Height](./butterfly-api/SettingsObject#height) {.link-header} && [Width](./butterfly-api/SettingsObject#width) {.link-header}<br>
+La propriété Height vas définire une hauteur à votre lecteur vidéo. Elle peut contenir une chaine de caractère entre 'auto' ou 'xx%', ou bien un entier.
 
-# Gérer plusieurs qualités
-Pour afficher un menu de qualité vidéo, il faudra utiliser le Regex `$({quality})`. La Butterfly Player API remplacera le `$({quality})` par le nom de qualité défini dans le tableau 'quality'.
+Et Width vas définire une largeur à votre lecteur vidéo. Elle peut contenir une chaine de caractère entre 'auto' ou 'xx%', ou bien un entier.
 
-> Le noyau d'événements vidéo Blueberry ne supporte pas le Regex, cela est géré par la version Fluttershy de la Butterfly Player API.
+[Src](./butterfly-api/SettingsObject#src) {.link-header}<br>
+Est une propriété qui définiras une URL vidéo à votre lecteur, pour que il puisse la lire une fois charger sur la page.
 
-```JS
-Player.set('#player', {
-    height: 720,
-    width: 1280,
-    src: 'https://www.siteweb.com/monfichier_$({quality}).mp4',
-    thumbnail: 'https://www.siteweb.com/monfichier.png',
-    quality: ['720p', '480p', '360p']
-})
-```
-
-
-## Gérer plusieurs langues
-Comme pour la gestion de la qualité vidéo, il vous suffit simplement d'ajouter `$({audio})` et la Butterfly Player API remplacera la source vidéo par celle sélectionnée dans le menu vidéos.
-
-> Lorsque l'option/tableau 'audio' est défini, l'option 'src' devient facultative, car le lecteur vidéo va faire passer en priorité la première ligne du tableau 'audio'.
-
-```JS
-Player.set('#player', {
-    height: 720,
-    width: 1280,
-    thumbnail: 'https://www.siteweb.com/monfichier.png',
-    quality: ['720p', '480p', '360p'],
-    audio: [
-        {
-            id: "vf",
-            name: "Français",
-            src: 'https://www.siteweb.com/monfichier_$({quality}).mp4'
-        }
-    ]
-})
-```
-
-## Gérer plusieurs extensions de fichier vidéo
-En ajoutant `$({extension})`, la Butterfly Player API mettra l'extension adaptée au navigateur parmi la liste fournie dans le tableau des extensions.
-
-```JS
-Player.set('#player', {
-    height: 720,
-    width: 1280,
-    thumbnail: 'https://www.siteweb.com/monfichier.png',
-    quality: ['720p', '480p', '360p'],
-    extension: ['mp4', 'webm'],
-    audio: [
-        {
-            id: "vf",
-            name: "Français",
-            src: 'https://www.siteweb.com/monfichier_$({quality}).$({extension})'
-        }
-    ]
-})
-```
-
-# Propriétés initialisation.
-
-## Height
-La propriété `height` prend encharge les entier superrieur à 0 ou bien une chaine de caratère entre 'auto' ou 'xxx%', pour mettre à jour la hauteurs du lecteur vidéo.
-
-## Width
-La propriété `width` prend encharge les entier superrieur à 0 ou bien une chaine de caratère entre 'auto' ou 'xxx%', pour mettre à jour la largeur du lecteur vidéo.
-
-## Src
-La propriété `Src`...
-
-## Thumbnail
-La propriété `Thumbnail`...
-
-## Title
-La propriété `Title`...
-
-## Sub_title
-La propriété `Sub_title`...
-
-## Quality
-La propriété `Quality`...
-
-
-## Extension
-La propriété `Extension`...
-
-## Subtitle
-La propriété `Subtitle`...
-
-## Audio
-La propriété `Audio`...
-
-## DefaultQuality
-La propriété `DefaultQuality`...
+[Thumbnail](./butterfly-api/SettingsObject#thumbnail) {.link-header}<br>
+Est une propriété qui définiras une URL image à l'élement Thumbnail, pour que il puisse l'afficher lorsque la vidéos n'ais pas en lecture.
